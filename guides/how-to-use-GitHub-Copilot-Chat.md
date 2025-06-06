@@ -2,8 +2,8 @@
 
 ## 前提
 
-- GitHub Copilot へのアクセス権が必要です。詳細は [TODO:事前配布資料へのリンク](/) を参照してください。
-- [TODO:環境構築手順書へのリンク](/) を参照し、あらかじめ Visual Studio Code および必要な拡張機能をインストールしてください。
+- GitHub Copilot へのアクセス権が必要です。
+- あらかじめ Visual Studio Code および拡張機能 GitHub Copilot をインストールしてください。
 
 ## チャットウィンドウを開く
 
@@ -13,8 +13,8 @@ Visual Studio Code の上部のタイトルバーで ![GitHub Copilot アイコ�
 
 ## プロンプトを送信する
 
-チャットウィンドウ下部のテキストボックスにプロンプトを入力し、 `Enter` キーを押下するか送信ボタンをクリックします。
-テキストボックス内で改行したい場合は、 `Shift` + `Enter` キーを押下します。
+チャットウィンドウ下部のプロンプトボックスにプロンプトを入力し、 `Enter` キーを押下するか送信ボタンをクリックします。
+プロンプトボックス内で改行したい場合は、 `Shift` + `Enter` キーを押下します。
 
 ## プロンプトで markdown を使用する
 
@@ -51,3 +51,18 @@ Visual Studio Code の上部のタイトルバーで ![GitHub Copilot アイコ�
 その他のチャット参加者の説明は [GitHub Copilot Chat チート シート - GitHub Docs](https://docs.github.com/ja/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet?tool=vscode#chat-participants) を参照してください。
 
 ## プロンプトにチャット変数を含める
+
+チャット変数とは、プロンプトに埋め込むことで、特定の情報や状況を AI に伝えるためのキーワードです。
+
+たとえば、`@file` や `@selection` などのチャット変数を使うと、  
+「今開いているファイル」や「選択中のコード」など、その時点の具体的な情報を AI に渡すことができます。
+
+主なチャット変数の例：
+
+- `@file` … 現在開いているファイル全体
+- `@selection` … 選択中のテキスト部分
+- `@workspace` … プロジェクト全体
+
+これらをプロンプトに含めることで、 AI がより正確に状況を把握し、適切な回答や提案をしてくれます。
+
+その他のチャット変数の説明は [GitHub Copilot Chat チート シート - GitHub Docs](https://docs.github.com/ja/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet?tool=vscode#chat-variables) を参照してください。
