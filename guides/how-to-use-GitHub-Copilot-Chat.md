@@ -92,7 +92,7 @@ VS Code を開き、チャットウィンドウを開いてみましょう。
 
 スラッシュコマンドを使用して GitHub Copilot に質問してみましょう。
 
-- [examples](./examples/) フォルダー内の任意の Java ファイルを VS Code で開き、ファイル全体を `/explain` を使用して説明させる
+- [Utilities.cpp](./examples/Utilities.cpp) を VS Code で開き、ファイル全体を `/explain` を使用して説明させる
 - 上のファイルの任意の範囲を選択し、 `/explain` で説明させる
 - `/help` で GitHub Copilot の使い方を確認する
 
@@ -139,5 +139,5 @@ VS Code を開き、チャットウィンドウを開いてみましょう。
 
 チャット変数を使用して GitHub Copilot に質問してみましょう。
 
-- [examples](./examples/) フォルダー内の任意の Java ファイルを VS Code で開き、 `#file` と `/explain` を使用してファイルの内容を説明させる
-- [examples](./examples/) フォルダー内の任意の Java ファイルを VS Code で開き、任意の範囲を選択して `#selection` と `/explain` で選択範囲の内容を説明させる
+- [Utilities.cpp](./examples/Utilities.cpp) を VS Code で開き、 `#file` と `/explain` を使用してファイルの内容を説明させる
+- [Utilities.cpp](./examples/Utilities.cpp) を VS Code で開き、任意の範囲を選択して `#selection` と `/explain` で選択範囲の内容を説明させる
