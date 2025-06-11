@@ -13,10 +13,7 @@ root
 ├─guides
 │  │  how-to-use-GitHub-Copilot-Chat.md ... ガイド「GitHub Copilot Chat の基本的な使い方」
 │  │
-│  ├─examples
-│  │  │  LICENSE ......................... dressca-backend のライセンスを示すファイル
-│  │  │
-│  │  └─dressca-backend ................. ハンズオンで使用するサンプルコードのフォルダー
+│  ├─examples ............................ ガイド「GitHub Copilot Chat の基本的な使い方」のハンズオンで使用するコードのフォルダー
 │  │
 │  └─images .............................. ガイド「GitHub Copilot Chat の基本的な使い方」で使用する画像のフォルダー
 │
