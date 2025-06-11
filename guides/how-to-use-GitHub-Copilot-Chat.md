@@ -93,7 +93,7 @@ VS Code を開き、チャットウィンドウを開いてみましょう。
 スラッシュコマンドを使用して GitHub Copilot に質問してみましょう。
 
 - [examples](./examples/) フォルダー内の任意の Java ファイルを VS Code で開き、ファイル全体を `/explain` を使用して説明させる
-- [examples](./examples/) フォルダー内の任意の Java ファイルを VS Code で開き、任意の選択範囲を `/explain` で説明させる
+- 上のファイルの任意の範囲を選択し、 `/explain` で説明させる
 - `/help` で GitHub Copilot の使い方を確認する
 
 ## プロンプトにチャット参加者を含める
@@ -101,8 +101,6 @@ VS Code を開き、チャットウィンドウを開いてみましょう。
 > チャット参加者は、支援を受けることができる専門知識を持つドメイン専門家のようなものです。
 
 （ [IDE で GitHub Copilot に質問する - GitHub Docs](https://docs.github.com/ja/copilot/using-github-copilot/copilot-chat/asking-github-copilot-questions-in-your-ide#submitting-prompts) より）
-
-本研修で主に使用するチャット参加者は `@workspace` です。これは、現在のプロジェクト（ワークスペース）全体の情報を AI に参照させるための指定です。
 
 主なチャット参加者の例：
 
@@ -119,8 +117,6 @@ VS Code を開き、チャットウィンドウを開いてみましょう。
 チャット参加者を使用して GitHub Copilot に質問してみましょう。
 
 - `@workspace` を使用して、 `/guides/examples` フォルダーに配置されたコードについて説明させる
-  - コードがどのようなアプリケーションを構成しているか
-  - コードが使用している外部ライブラリ
 - `@github` を使用して、このリポジトリの概要を説明させる
 
 ## プロンプトにチャット変数を含める
