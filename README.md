@@ -6,17 +6,20 @@ AlesInfiny AI 研修で行うハンズオン用のリポジトリです。
 
 ```text
 root
-│  README.md ............................... このファイル
+│  README.md .............................................. このファイル
 │
-├─design-specification-templates .......... COBOL コードをモダナイズするための設計書テンプレートを配置したフォルダー
+├─design-specification-templates .......................... COBOL コードをモダナイズするための設計書テンプレートを配置したフォルダー
 │
 ├─guides
-│  │  how-to-use-GitHub-Copilot-Chat.md ... ガイド「GitHub Copilot Chat の基本的な使い方」
+│  │  01.how-to-use-GitHub-Copilot-Chat.md ................ ガイド「GitHub Copilot Chat の基本的な使い方」
 │  │
-│  ├─examples ............................ ガイド「GitHub Copilot Chat の基本的な使い方」のハンズオンで使用するコードのフォルダー
+│  ├─examples ............................................. ガイド「GitHub Copilot Chat の基本的な使い方」のハンズオンで使用するコードのフォルダー
 │  │
-│  └─images .............................. ガイド「GitHub Copilot Chat の基本的な使い方」で使用する画像のフォルダー
+│  └─images ............................................... ガイド「GitHub Copilot Chat の基本的な使い方」で使用する画像のフォルダー
 │
-└─legacy-codes ............................ GitHub Copilot を使ってモダナイズする COBOL コードのフォルダー
-
+├─hands-on-steps
+│      02.analyzing-legacy-code-dependency-analysis.md .... ハンズオン解説「レガシーコードを分析する - 依存関係の分析」
+│      03.analyzing-legacy-code-processing-details.md ..... ハンズオン解説「レガシーコードを分析する - 処理詳細の解析」
+│
+└─legacy-codes ............................................ GitHub Copilot を使ってモダナイズする COBOL コードのフォルダー
 ```
