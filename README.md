@@ -21,6 +21,7 @@ root
 │  │  02.analyzing-legacy-code-dependency-analysis.md .... ハンズオン解説「レガシーコードを分析する - 依存関係の分析」
 │  │  03.analyzing-legacy-code-processing-details.md ..... ハンズオン解説「レガシーコードを分析する - 処理詳細の解析」
 │  │  04.reversing-design-from-legacy-code.md ............ ハンズオン解説「レガシーコードから設計書をリバースする」
+│  │  05.create-test-spec-from-design-spec.md ............ ハンズオン解説「設計書からテスト仕様書を作成する」
 │  │
 │  └─images
 │
