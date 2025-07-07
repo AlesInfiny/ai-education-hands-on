@@ -1,38 +1,41 @@
 # テストデータ
 
+## データセット： {DataSet Name}
+
+| {Table Name} | {Column Name 1} | {Column Name 2} | {Column Name 3} |
+| ------------ | --------------- | --------------- | --------------- |
+
+<!-- 入力例ここから -->
 ## データセット： TestDataSet1
 
-| Table Name | Column Name 1 | Column Name 2 | Column Name 3 |
-| ---------- | ------------- | ------------- | ------------- |
+| Table Name | String Column  | Digit Column | Flag Column |
+| ---------- | -------------- | ------------ | ----------- |
+| Table1     | String Value 1 | 14000        | true        |
+| Table1     | String Value 1 | 22000        | false       |
 
-<!-- ここから入力例 -->
-| EMPLOYEE-ID | EMPLOYEE-NAME | DEPARTMENT | GROSS-SALARY |
-| ----------- | ------------- | ---------- | ------------ |
-| E0001       | John Davis    | Management | 250000       |
-| E0002       | Alice Brown   | Finance    | 320000       |
-| E0003       | Mary Smith    | HR         | 210000       |
-| E0004       | Tom Wilson    | IT         | 440000       |
-| E0005       | Michael Wild  | HR         | 230000       |
-<!-- ここまで入力例 -->
+<!-- 入力例ここまで -->
 
-### テストケース ID: INIT_EMP_001
+### テストケース ID: {Test Case ID}
 
 <!-- データセットを使用する場合は、データセット名を記載する。 -->
 使用データセット： 
 
-<!-- ここから入力例 -->
-使用データセット： TestDataSet1
-<!-- ここまで入力例 -->
+<!-- 入力例ここから -->
+### テストケース ID: Test_0001
 
-### テストケースID: CALC_SALARY_001
+使用データセット： TestDataSet1
+<!-- 入力例ここまで -->
+
+### テストケースID: {Test Case ID}
 
 <!-- データセットを使用しない場合は、テストデータを記載する。 -->
-
 | Table Name | Column Name 1 | Column Name 2 | Column Name 3 |
 | ---------- | ------------- | ------------- | ------------- |
 
-<!-- ここから入力例 -->
-| EMPLOYEE-ID | EMPLOYEE-NAME   | DEPARTMENT | GROSS-SALARY |
-| ----------- | --------------- | ---------- | ------------ |
-| E001        | Alice Johnson   | HR         | 70000.00     |
-<!-- ここまで入力例 -->
+<!-- 入力例ここから -->
+### テストケースID: Test_0003
+
+| Table Name |  String Column  | Digit Column | Flag Column |
+| ---------- | --------------- | ------------ | ----------- |
+| Table1     | String Value 10 | 300          | true        |
+<!-- 入力例ここまで -->
