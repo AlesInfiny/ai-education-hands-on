@@ -4,26 +4,29 @@ AlesInfiny AI 研修で行うハンズオン用のリポジトリです。
 
 ## リポジトリのフォルダー構成
 
-```text
+```plaintext
 root
-│  README.md .............................................. このファイル
+│  README.md .................................................. このファイル
 │
-├─design-specification-templates ......................... COBOL コードをモダナイズするための設計書テンプレートを配置したフォルダー
+├─appendix
+│  │  99.how-to-fork-repository-and-create-pull-request.md .... 付録「リポジトリをフォークしてプルリクエストを作成する手順」
+│  │
+│  └─images ................................................... 付録が使用する画像のフォルダー
 │
-├─guides
-│  │  01.how-to-use-GitHub-Copilot-Chat.md ............... ガイド「GitHub Copilot Chat の基本的な使い方」
-│  │
-│  ├─examples ........................................... ガイド「GitHub Copilot Chat の基本的な使い方」のハンズオンで使用するコードのフォルダー
-│  │
-│  └─images ............................................. ガイド「GitHub Copilot Chat の基本的な使い方」で使用する画像のフォルダー
+├─code-examples ............................................... 各ハンズオンで使用するコード例のフォルダー
+│
+├─design-specification-templates .............................. COBOL コードをモダナイズするための設計書テンプレートを配置したフォルダー
 │
 ├─hands-on-steps
-│  │  02.analyzing-legacy-code-dependency-analysis.md .... ハンズオン解説「レガシーコードを分析する - 依存関係の分析」
-│  │  03.analyzing-legacy-code-processing-details.md ..... ハンズオン解説「レガシーコードを分析する - 処理詳細の解析」
-│  │  04.reversing-design-from-legacy-code.md ............ ハンズオン解説「レガシーコードから設計書をリバースする」
-│  │  05.create-test-spec-from-design-spec.md ............ ハンズオン解説「設計書からテスト仕様書を作成する」
+│  │  01.how-to-use-GitHub-Copilot-Chat.md .................... ハンズオン解説「GitHub Copilot Chat の基本的な使い方」
+│  │  02.analyzing-legacy-code-dependency-analysis.md ......... ハンズオン解説「レガシーコードを分析する - 依存関係の分析」
+│  │  03.analyzing-legacy-code-processing-details.md .......... ハンズオン解説「レガシーコードを分析する - 処理詳細の解析」
+│  │  04.reversing-design-from-legacy-code.md ................. ハンズオン解説「レガシーコードから設計書をリバースする」
+│  │  05.create-test-spec-from-design-spec.md ................. ハンズオン解説「設計書からテスト仕様書を作成する」
+│  │  06.create-test-data-from-test-spec.md ................... ハンズオン解説「設計書とテスト仕様書からテストデータを作成する」
+│  │  07.how-to-do-code-review-with-copilot-vscode.md ......... ハンズオン解説「コードレビューで GitHub Copilot を活用する - VS Code 編 -」
 │  │
-│  └─images
+│  └─images ................................................... ハンズオン解説が使用する画像のフォルダー
 │
-└─legacy-codes ........................................... GitHub Copilot を使ってモダナイズする COBOL コードのフォルダー
+└─legacy-codes ................................................ GitHub Copilot を使ってモダナイズする COBOL コードのフォルダー
 ```
