@@ -36,9 +36,9 @@ root
 - `legacy-codes` ディレクトリ以外のコンテンツは、 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja) で提供されています。
 - `legacy-codes` ディレクトリのコンテンツは [MIT ライセンス](./legacy-codes/LICENSE) で提供されています。
 
-詳細は [LICENSE](/LICENSE) を参照してください。
+詳細は [LICENSE](/LICENSE.md) を参照してください。
 
 - Except for the `legacy-codes` directory, all contents are distributed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 - The contents of the `legacy-codes` directory are provided under the [MIT License](./legacy-codes/LICENSE).
 
-See [LICENSE](/LICENSE) for details.
+See [LICENSE](/LICENSE.md) for details.
