@@ -15,10 +15,10 @@ Copyright © 2025 BIPROGY Inc. All rights reserved.
 詳細は [legacy-codes/LICENSE](/legacy-codes/LICENSE) および [legacy-codes/README.md](/legacy-codes/README.md) を参照してください。
 `legacy-codes` ディレクトリの内容には CC BY-NC-ND 4.0 ライセンスは適用されません。
 
+詳細は [legacy-codes/LICENSE](/legacy-codes/LICENSE) を参照してください。
+
 The code under the `legacy-codes` directory is published under the [MIT License](https://gist.githubusercontent.com/shinyay/56e54ee4c0e22db8211e05e70a63247e/raw/f3ac65a05ed8c8ea70b653875ccac0c6dbc10ba1/LICENSE).
 See [legacy-codes/LICENSE](/legacy-codes/LICENSE) and [legacy-codes/README.md](/legacy-codes/README.md) for details.
 Do **not** apply the CC BY-NC-ND 4.0 license to the contents of `legacy-codes`.
-
-詳細は [legacy-codes/LICENSE](/legacy-codes/LICENSE) を参照してください。
 
 See [legacy-codes/LICENSE](/legacy-codes/LICENSE) for details.
