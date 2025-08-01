@@ -5,6 +5,7 @@
 Copyright © 2025 BIPROGY 株式会社
 
 Except as noted below, the contents of this repository (excluding the `legacy-codes` directory) are licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
 Copyright © 2025 BIPROGY Inc. All rights reserved.
 
 ---
