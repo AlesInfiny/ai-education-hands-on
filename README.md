@@ -30,3 +30,13 @@ root
 │
 └─legacy-codes ................................................ GitHub Copilot を使ってモダナイズする COBOL コードのフォルダー
 ```
+
+## コントリビュートについて / Contributing
+
+本リポジトリは外部からのコントリビュート（プルリクエスト・Issue）を受け付けていません。
+外部から送信されたIssueやプルリクエストは、自動的にクローズされます。
+あらかじめご了承ください。
+
+This repository does not accept contributions from external users.
+Issues and pull requests submitted by external contributors are automatically closed by our workflow.
+Thank you for your understanding.
